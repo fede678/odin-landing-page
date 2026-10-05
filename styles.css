@@ -1,6 +1,10 @@
 * {
-    font-family: "Roboto", monospace;
+    font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
 }
 
 .header {
@@ -29,12 +33,12 @@ ul {
 }
 
 .blue {
-    padding: 5px 150px 100px;
+    padding: 5px 150px 120px;
 }
 
 .main {
     display:flex;
-    align-items: center;
+    align-items: stretch;
     margin-top: 100px;
     gap: 30px;
 }
@@ -52,25 +56,26 @@ a, button {
 }
 
 button {
-    border: #3882F6;
+    border: none;
     padding: 8px 31px;
     border-radius: 8px;
 }
 
 .container h1 {
     font-size: 48px;
-    font-weight: 900px;
+    font-weight: 900;
+    margin-bottom: 0px;
 }
 
-.text-main, a {
+.hero-text {
+    margin-top: 0px;
+}
+
+.hero-text, a {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-.container h1, .text-main {
-    margin: 0px;
-    padding: 0px;
-}
 
 .information {
     font-size: 36px;
@@ -85,7 +90,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 60px 0px 160px;
+    padding: 60px 0px 155px;
 }
 
 .box {
