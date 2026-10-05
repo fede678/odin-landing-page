@@ -3,20 +3,38 @@
 }
 
 .header {
-    color: #F9FAF8;
-    background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .logo {
     font-size: 24px;
-    font-weight: 700;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
+    align-items: center;
+}
+
+.header, .main {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.main {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    width: 267px;
+}
+
+a {
+    color: #F9FAF8;
+    text-decoration: none;
 }
