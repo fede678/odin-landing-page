@@ -31,10 +31,27 @@ ul {
 }
 
 .container {
-    width: 267px;
+   flex: 1;
 }
 
 a {
-    color: #F9FAF8;
     text-decoration: none;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: #3882F6;
+    padding: 9px 25px;
+    border-radius: 8px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900px;
+}
+
+.text-main, a {
+    color: #E5E7EB;
+    font-size: 18px;
 }
