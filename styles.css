@@ -11,6 +11,7 @@
 
 .logo {
     font-size: 24px;
+    flex-shrink: 0;
 }
 
 ul {
@@ -48,10 +49,8 @@ a, button {
 }
 
 button {
-    background-color: #3882F6;
-    color: #F9FAF8;
     border: #3882F6;
-    padding: 9px 25px;
+    padding: 8px 31px;
     border-radius: 8px;
 }
 
@@ -121,4 +120,42 @@ button {
     font-weight: 700;
     align-self: flex-end;
     margin-top: 0;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px;
+}
+
+.cyan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    padding: 50px 115px;
+    border-radius: 8px;
+}
+
+button, .cyan{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cyan button {
+    border: solid white 2px;
+    padding: 7px 33px;
+}
+
+.cyan h1 {
+    font-size: 24px;
+}
+
+.cyan p {
+    font-size: 18px;
+}
+
+.cyan h1, .cyan p {
+    margin: 0px;
 }
