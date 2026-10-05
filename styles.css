@@ -1,5 +1,6 @@
 * {
     font-family: "Roboto", monospace;
+    box-sizing: border-box;
 }
 
 .header {
@@ -70,7 +71,7 @@ button {
     color: #1F2937;
     font-weight: 900;
     text-align: center;
-    margin: 60px;
+    margin-top: 60px;
 }
 
 .info {
@@ -78,6 +79,7 @@ button {
     justify-content: center;
     align-items: center;
     gap: 50px;
+    padding: 60px 0px 160px;
 }
 
 .box {
@@ -90,6 +92,7 @@ button {
 .info-text {
     font-size: 18px;
     color: #464747;
+    text-align: center;
 }
 
 .info .container {
@@ -100,3 +103,22 @@ button {
     justify-content: center;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px 70px;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-top: 0;
+}
