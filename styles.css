@@ -29,17 +29,21 @@ ul {
 
 .main {
     display:flex;
-    align-items: stretch;
+    align-items: center;
     margin-top: 100px;
     gap: 30px;
 }
 
-.container {
+.main .container, img {
     flex: 1;
 }
 
 a {
     text-decoration: none;
+}
+
+a, button {
+    font-weight: 700;
 }
 
 button {
@@ -61,6 +65,38 @@ button {
     font-size: 18px;
 }
 
-img {
-    flex: 1;
+.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 60px;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.box {
+    height: 180px;
+    border: solid #3882F6 4px;
+    width: 180px;
+    border-radius: 20px;
+}
+
+.info-text {
+    font-size: 18px;
+    color: #464747;
+}
+
+.info .container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
