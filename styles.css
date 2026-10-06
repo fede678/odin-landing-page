@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
 body {
     margin: 0px;
 }
@@ -45,6 +50,10 @@ ul {
 
 .main .container, img {
     flex: 1;
+}
+
+.main .container{
+    height: 283px;
 }
 
 a {
